@@ -1,0 +1,234 @@
+/* base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+#myChart {
+  width: 50rem;
+  height: 50rem;
+}
+.container {
+  font-family: "Roboto", sans-serif;
+  margin: 10rem auto;
+}
+.add-item-btn{
+  font-family: "Quicksand", sans-serif;
+  color:white;
+background-color: #00DFAA;
+font-weight: bold;
+padding: 1rem 2rem;
+border: none;
+border-radius: 5px;
+display: block;
+margin-top: 1rem;
+font-size: 1.5rem;
+}
+.input-add-first-name{
+  padding: .5rem 5rem;
+  border-radius: 5px;
+}
+
+.input-add-first-name::placeholder,.input-add-amount::placeholder{
+  color:#828282;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.input-add-amount::placeholder{
+  margin-left: 1rem;
+}
+.input-add-first-name,.input-add-amount{
+  border: 1.5px solid #aca6a6;
+  margin-left: 3.5rem;
+line-height: 2rem;
+}
+.input-add-amount{
+  border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+.input-dollar-icon{
+  display: inline;
+  position: relative;
+}
+.dollar-icon{
+position: absolute;
+left:1.1rem;
+font-size: 1.5rem;
+color: #828282;
+border: 1px solid  #aca6a6;
+background-color: rgba(146, 140, 140, 0.2);
+padding: .43rem .8rem;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.input-add-amount{
+  padding: .5rem 0rem;
+}
+
+.input-group{
+  margin-top: 1rem;
+}
+
+/* list items styling */
+.list li {
+  list-style: none;
+  margin-top: 1.5rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* list item circle element */
+.list-item-circle {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-top: .5rem;
+  border-radius: 50%;
+}
+.input-group:hover .delete-icon{
+  display: inline;
+}
+.delete-icon{
+  display: none;
+  font-size: 2rem;
+  color:#FC3158;
+  margin-left: .75rem;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+/* funding goal postioning  */
+.funding-goal {
+  position: absolute;
+  font-size: 3rem;
+  bottom: 23rem;
+  left: 21rem;
+  color: #4f4f4f;
+  font-weight: bold;
+}
+
+
+/* those were intended to be  for fetched data */
+/* typography */
+.list-item-name,
+.list-item-amount {
+  font-size: 1.6rem;
+  display: inline-block;
+  font-family: "Quicksand", sans-serif;
+  color: #4f4f4f;
+}
+.list-item-name {
+  width: 30rem;
+  margin-left: 2rem;
+  font-weight: 400;
+}
+.funding-goal,
+.funding-goal-upper-text {
+  font-family: "Quicksand", sans-serif;
+}
+.funding-goal-upper-text {
+  color: #828282;
+  font-weight: 400;
+}
+.list-item-amount {
+  font-weight: bold;
+}
+.page-header {
+  margin-bottom: 5rem;
+  color: #4f4f4f;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1366px) {
+ 
+  html{
+    font-size: 9px;
+  }
+  .delete-icon{
+    display: inline;
+  }
+ 
+  
+}
+@media only screen and (max-width: 1024px) {
+  html{
+    font-size: 9px;
+  }
+  .input-add-first-name{
+    padding: .5rem 3rem;
+    margin-left: 2rem;
+  }
+  .input-add-amount{
+    margin-left: 3.5rem;
+
+  }
+}
+@media only screen and (max-width:768px) {
+  
+  html{
+    font-size: 8px;
+  }
+  .funding-goal{
+    bottom:17rem;
+    left:15rem;
+  }
+
+}
+
+@media only screen and (max-height:600px) {
+
+}
+@media  screen and (max-width:450px) {
+  html{
+    font-size: 6.5px;
+  }
+
+  #myChart{
+    margin-top: 5rem;
+  }
+  .funding-goal{
+    bottom:28rem;
+    left:26rem;
+  }
+  
+}
+@media  screen and (max-width:414px) {
+  html{
+    font-size: 6px;
+  }
+
+  #myChart{
+    margin-top: 5rem;
+  }
+  .funding-goal{
+    bottom:28rem;
+    left:26rem;
+  }
+  
+}
+@media  screen and (max-width:375px) {
+  
+ .funding-goal{
+   bottom:25rem;
+   left:23rem;
+ }
+  
+}
+
+@media  screen and (max-width:320px) {
+  .funding-goal{
+    bottom:21rem;
+    left:20rem;
+  }
+   
+ }
+@media  screen and (max-width:280px) {
+ 
+
+  .funding-goal{
+    bottom:17rem;
+    left:15rem;
+  }
+  
+}

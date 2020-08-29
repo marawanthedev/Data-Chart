@@ -1,0 +1,45 @@
+{
+  "data2": [],
+  "data": [
+    {
+      "name": "Capacity building workshops",
+      "amount": "25000"
+    },
+    {
+      "name": "Training toolkits",
+      "amount": "5000"
+    },
+    {
+      "name": "Facilitators' training",
+      "amount": "15000"
+    },
+    {
+      "name": "Wildlife cleaning",
+      "amount": "7500"
+    },
+    {
+      "name": "School Donations",
+      "amount": "7500"
+    },
+    {
+      "name": "Club Donations",
+      "amount": "25000"
+    },
+    {
+      "name": "Startups support",
+      "amount": "5000"
+    },
+    {
+      "name": "Buliding Homes",
+      "amount": "15000"
+    },
+    {
+      "name": "Building a School",
+      "amount": "7500"
+    },
+    {
+      "name": "Food distribution",
+      "amount": "7500"
+    }
+  ]
+}
